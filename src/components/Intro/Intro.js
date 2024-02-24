@@ -7,7 +7,7 @@ import logo2 from '../../assets/Ball_logo-removebg-preview.png'
 
 const Intro = () => {
     return (
-        <section className='container mx-auto'>
+        <section className='container mx-auto mb-16'>
             <div className='flex items-center justify-center'>
                 <div className='container mx-auto bg-blue-600 h-[675px] flex flex-col justify-start pt-20 rounded-b-2xl text-white text-5xl font-bold'>
 
@@ -31,11 +31,11 @@ const Intro = () => {
 
                     <div className='flex-1'>
                         <div className='bg-white w-[1160px] h-[605px] mt-5 flex-1 flex-col items-start justify-center rounded-2xl'>
-                            <img className='mt-3' src={topImg} alt="topImg" />
+                            <img className='mt-3 rounded-xl' src={topImg} alt="topImg" />
                             <div className='flex'>
                                 <div className='flex-1 flex-col ms-3'>
                                     <img className='h-[94px] w-[501px]' src={midImg} alt="" />
-                                    <div className='flex justify-center items-center'>
+                                    <div className='flex justify- items-start'>
                                         <div>
                                             <h2 className='text-left ms-3'>Recent</h2>
                                             <div className='flex flex-col justify-start items-start'>
